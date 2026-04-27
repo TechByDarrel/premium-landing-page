@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: white;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+/* HERO */
+.hero {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  max-width: 600px;
+}
+
+.hero p {
+  margin: 20px 0;
+  color: #94a3b8;
+}
+
+button {
+  padding: 12px 24px;
+  background: #3b82f6;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* SERVICES */
+.services {
+  padding: 60px 40px;
+}
+
+.service-cards {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  flex: 1;
+  border-radius: 10px;
+}
